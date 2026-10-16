@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>rAPPresentante</title>
+  <meta name="description" content="Strumenti per il rappresentante di classe: rubrica, quote, agenda, verbali e sondaggi.">
+  <meta name="theme-color" content="#2563eb">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="top-bar">
+    <a href="#/" class="brand">r<b>APP</b>resentante</a>
+    <a href="#/impostazioni" class="icon-btn" aria-label="Impostazioni">⚙️</a>
+  </header>
+
+  <main id="view" aria-live="polite"></main>
+
+  <nav class="bottom-nav" aria-label="Sezioni">
+    <a href="#/" data-tab="home"><span>🏠</span>Home</a>
+    <a href="#/rubrica" data-tab="rubrica"><span>👪</span>Rubrica</a>
+    <a href="#/quote" data-tab="quote"><span>💶</span>Quote</a>
+    <a href="#/agenda" data-tab="agenda"><span>📅</span>Agenda</a>
+    <a href="#/verbali" data-tab="verbali"><span>📝</span>Verbali</a>
+  </nav>
+
+  <dialog id="modal"></dialog>
+  <div id="toast" role="status" hidden></div>
+
+  <noscript>Per usare rAPPresentante abilita JavaScript.</noscript>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
