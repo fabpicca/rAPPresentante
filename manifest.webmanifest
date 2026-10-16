@@ -1,0 +1,16 @@
+{
+  "name": "rAPPresentante",
+  "short_name": "Rappresentante",
+  "description": "Strumenti per il rappresentante di classe: rubrica, quote, agenda, verbali e sondaggi.",
+  "lang": "it",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f6fb",
+  "theme_color": "#2563eb",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
